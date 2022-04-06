@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300&display=swap');
+
+/* 
+colors
+
+
+Sugar Hearts You
+#fe4365
+Party Confetti
+#fc9d9a
+Sugar Champagne
+#f9cdad
+Bursts Of Euphoria
+#c8c8a9
+Happy Balloons
+#83af9b
+ */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'playfair', sans-serif;
+}
+
+body {
+    position: relative;
+    background-color: #EDF0E2;
+
+}
+
+section {
+    width: 75%;
+    height: 100vh;
+    background-color: burlywood;
+    background-image: url(https://cdn.dribbble.com/users/1789165/screenshots/6819197/attachments/1455528/____.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 35%;
+}
+
+article {
+    width: 80%;
+    position: absolute;
+    right: 60%;
+    top: 28%
+}
+
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    line-height: 1.5em;
+}
+
+h1::first-letter {
+    font-size: 1.2em;
+}
+
+
+p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5em;
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+article p:first-of-type {
+    padding-top: 20px;
+
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1111111em;
+    font-weight: bold;
+    background-color: #E49E3C;
+    padding: 0.5em 4em 0.5em;
+    border-radius: 1em;
+    border-style: none;
+    margin-top: 1.5em;
+}
